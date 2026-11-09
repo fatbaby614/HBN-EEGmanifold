@@ -1,6 +1,5 @@
 # eeg-covariance-maturation
 
-Analysis code for the manuscript **"Mapping Pediatric EEG Covariance Maturation Through Riemannian Manifold Learning: A Large-Scale Normative Modeling Study"** (submitted to *Frontiers in Neuroinformatics*; DOI to be assigned).
 
 This pipeline takes raw resting-state EEG from the Healthy Brain Network (HBN) dataset through preprocessing, Riemannian covariance feature extraction, nested-cross-validated brain-age prediction, and Manifold Geometry Deviation (MGD) normative modeling, and regenerates every quantitative figure used in the paper.
 
