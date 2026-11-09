@@ -1,0 +1,25 @@
+# HBN Brain Age Prediction Pipeline — Python dependencies
+# Install:  pip install -r requirements.txt
+
+# Core EEG processing
+mne>=1.4.0
+
+# Riemannian geometry (covariance estimation, tangent space mapping)
+pyriemann>=0.3
+
+# Machine learning
+scikit-learn>=1.2.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Statistics (partial correlation; step04 has a fallback if unavailable)
+pingouin>=0.5.3
+
+# Parallelism / model persistence
+joblib>=1.2.0
